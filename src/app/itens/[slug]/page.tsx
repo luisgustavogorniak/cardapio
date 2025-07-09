@@ -3,7 +3,7 @@ import ItemCard from "./ItemCard";
 import { getItemById } from "@/actions/item.action";
 import { SignIn } from "@stackframe/stack";
 
-export async function generateMetaData({
+export async function generateMetadata({
   params,
 }: {
   params: { slug: string };

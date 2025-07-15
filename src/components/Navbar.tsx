@@ -53,7 +53,7 @@ export const Navbar = async () => {
                   className="flex items-center gap-2"
                   asChild
                 >
-                  <Link href={app.signIn}>
+                  <Link href={app.signOut}>
                     <LogOut className="w-4 h-4" />
                     <span className="hidden lg:inline">Sign Out</span>
                   </Link>
@@ -68,7 +68,7 @@ export const Navbar = async () => {
                   className="flex items-center gap-2"
                   asChild
                 >
-                  <Link href={app.signOut}>
+                  <Link href={app.signIn}>
                     <LogIn className="w-4 h-4" />
                     <span className="hidden lg:inline">Sign In</span>
                   </Link>

@@ -33,7 +33,7 @@ export default function RootLayout({
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
-        <div>
+        <main>
           <StackProvider app={stackServerApp}>
             <StackTheme>
               <ThemeProvider
@@ -48,7 +48,7 @@ export default function RootLayout({
               </ThemeProvider>
             </StackTheme>
           </StackProvider>
-        </div>
+        </main>
       </body>
     </html>
   );

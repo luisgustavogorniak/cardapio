@@ -24,7 +24,7 @@ Primeiro, execute o servidor de desenvolvimento:
 
 ```bash
 # Clone o repositório
-git clone <repo-url>
+git clone github.com/luisgustavogorniak/cardapio
 
 # Instale as dependências
 npm install
